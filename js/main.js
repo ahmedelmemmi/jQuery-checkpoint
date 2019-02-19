@@ -1,0 +1,29 @@
+$("#bolded").click(function(){
+    $("#changed").css('font-weight','bold');
+})
+
+$("#itaalic").click(function(){
+    $("#changed").css('font-style',"italic");
+})
+$("#underlinee").click(function(){
+    $("#changed").css('text-decoration','underline');
+})
+
+$("#karl").click(function(){
+    $("#changed").css("font-family",'Karla');
+})
+$("#lobster").click(function(){
+    $("#changed").css("font-family",'Lobster');
+})
+$("#pacifico").click(function(){
+    $("#changed").css("font-family",'Pacifico');
+})
+$("#sz1").click(function(){
+    $("#changed").css("font-size","10px");
+})
+$("#sz2").click(function(){
+    $("#changed").css("font-size","20px");
+})
+$("#sz3").click(function(){
+    $("#changed").css("font-size","30px");
+})
